@@ -1,0 +1,62 @@
+crad-top {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100px;
+    word-wrap: break-word;
+    background: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .25rem;
+}
+
+.item {
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.item h6 {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.item img {
+    width: 64px;
+}
+
+.item a:hover,
+.item:hover,
+.item h6 a:hover {
+    color: #0000ff;
+    text-decoration: #0000ff;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.card {
+    padding: 15px;
+    margin: 45px;
+    border: none;
+}
+
+.card img {
+    width: auto;
+    height: 200px;
+    gap: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.08);
+}
+
+.img-fluid {
+    height: 200px;
+    width: 200px;
+}

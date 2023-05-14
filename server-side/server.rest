@@ -1,0 +1,61 @@
+# Create User
+POST http://localhost:8701/auth/register
+Content-Type: application/json
+
+###
+# Login user
+POST http://localhost:8701/auth/login
+Content-Type: application/json
+
+  ###
+
+# getUsers
+GET http://localhost:8701/users
+Content-Type: application/json
+
+###
+
+# getUser
+GET http://localhost:8701/users/id:
+Content-Type: application/json
+
+###
+
+# updateUser
+PATCH http://localhost:8701/users/id:
+Content-Type: application/json
+
+###
+
+# deleteUser
+DELETE http://localhost:8701/users/id:
+Content-Type: application/json
+
+###
+
+# createProduct
+POST http://localhost:8701/products:
+Content-Type: application/json
+
+###
+
+# getProducts
+GET http://http:localhost:8701/products
+Content-Type: application/json
+
+###
+
+#getProduct
+GET http://http:localhost:8701/products/id:
+Content-Type: application/json
+
+###
+
+#updateProduct
+PATCH http://http:localhost:8701/products/id:
+Content-Type: application/json
+
+###
+#deleteProduct
+DELETE http://http:localhost:8701/products/id:
+Content-Type: application/json
